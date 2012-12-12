@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp" >
+
+    <ImageView
+        android:id="@+id/imgFriendAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/upic" />
+
+    <TextView
+        android:id="@+id/txtFriendItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgFriendAvatar"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/imgFriendAvatar"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtFriendItemAch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtFriendItemName"
+        android:layout_below="@+id/txtFriendItemName"
+        android:text="No of Achievement"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+    <TextView
+        android:id="@+id/txtFriendItemRank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtFriendItemAch"
+        android:layout_below="@+id/txtFriendItemAch"
+        android:text="Rank"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

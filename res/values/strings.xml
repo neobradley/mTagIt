@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">TagIt</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tag_it">TagIt</string>
+    <string name="btnQR">Open QR Scanner</string>
+    <string name="people_about">Made by \n\n Group Therians \n\n Yuyu S. Lai \n\n Calvin Mitchell A. Ongkingco \n\n Karyn Perl Liong \n\n Special Thanks \n\n Warren T. Miñano \n\n Miguel Sison </string>
+	<string name="dummy_entries">Warren</string>
+	<string name="faqs">How do I change my displayed name? \n\n
+	Go to settings. Enter the revised name and then click save.\n\n
+What are points?\n\n
+	Points are the total number of points accumulated.\n\n
+How do I change my avatar?\n\n
+	Go to settings. Choose an avatar and then click save.\n\n
+What is a rank?\n\n
+	A rank is a title which is based on the number of achievements the user achieved.\n\n
+What do total achievements mean?\n\n
+Total achievements display the number of user’s achievements over total number of data achievements.\n\n
+	What does sync do?\n\n
+Sync updates the information of the application. In order for sync to work, internet access is needed.\n\n
+	How do I set my Facebook account? \n\n
+		Go to settings. Click Connect to Facebook.\n\n
+How do I set my Twitter account? \n\n
+		Go to settings. Click Connect to Twitter.\n\n
+	How do I log out?\n\n
+		Go to settings. Click logout.\n\n
+	What is Share Tag’it?\n\n
+		Share Tag’it allows the user to connect to Facebook and Twitter to post or promote application.\n\n
+	How do I transfer points to my friends?\n\n
+Click friends. Select friend from list of friends. From your friend’s profile, click transfer points. Enter amount of points to be transferred and then click submit.\n\n
+
+	What can I see on my friend’s profile?\n\n
+The name, points, ranks, total achievements, achievements, and activities of your friend can be viewed on your friend’s profile. \n\n
+	How do I remove my friend from my friends list?\n\n
+		Click friends.Select friend from list of friends. From your friend’s profile, click unfriend.\n\n
+	How do I add a friend and make a friend request?\n\n
+Click friends. Click plus (+). Input friends email and then click submit.\n\n
+	What are activities?\n\n
+		Activities show the descriptions of the activities you have done inside the application.\n\n
+	What is Order?\n\n
+Order allows the user to choose for single or group then the user can choose an order where in the prices are automatically calculated based on the option selected.\n\n
+	What is scan for points?\n\n
+Scan for points are used to scan the receipt id to track down the orders of the user which is needed to acquire achievements. After using scan for points, it is required for the user to access the internet or use sync. \n\n
+	    
+	</string>
+	<string name="about_us">Tag’it, a consumer based loyalty mobile application that rewards users with points every time they purchase products from any KFC branch. Points earned by the user can be used to redeem KFC products from any branch using their mobile phones. When consumers buy KFC products they will get a barcode found in the receipt and using the Tag’it Scanner to get the corresponding point within the digital code. Aside from rewards Tag’it users can compete with their friends by collecting KFC stamps that serves as achievements as they collect points. Tag’it users also have the capability to share their achievement thru their social networks. Tag’it user can also use the online mobile delivery that can let them order KFC products anywhere anytime. \n</string>
+</resources>

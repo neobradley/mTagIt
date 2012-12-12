@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/set"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_weight="0.01" >
+
+                <EditText
+                    android:id="@+id/txtSetName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="52dp"
+                    android:ems="10"
+                    android:hint="Warren Minano" />
+
+                <EditText
+                    android:id="@+id/txtSetPW"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtSetName"
+                    android:layout_below="@+id/txtSetName"
+                    android:ems="10"
+                    android:hint="Current Password" />
+
+                <EditText
+                    android:id="@+id/txtSetNewPW"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtSetPW"
+                    android:layout_alignRight="@+id/txtSetPW"
+                    android:layout_below="@+id/txtSetPW"
+                    android:ems="10"
+                    android:hint="New Password" />
+
+                <EditText
+                    android:id="@+id/txtSetConfPW"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtSetNewPW"
+                    android:layout_below="@+id/txtSetNewPW"
+                    android:ems="10"
+                    android:hint="Confirm Password" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp" >
+
+                <ImageView
+                    android:id="@+id/imgSetAvatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/b1" />
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imgSetAvatar"
+                    android:layout_marginLeft="32dp"
+                    android:layout_toRightOf="@+id/imgSetAvatar" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s1" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s2" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s3" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s4" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s5" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s6" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s7" />
+
+                        <ImageView
+                            android:id="@+id/imgSetIcon8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/s8" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/btnSetSave"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="Save" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imgSetAvatar"
+                    android:layout_below="@+id/imgSetAvatar"
+                    android:text="User Avatar"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_weight="0.01" >
+
+                <Button
+                    android:id="@+id/btnSetLogout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="Sign Out" />
+
+                <Button
+                    android:id="@+id/btnSetTw"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/btnSetLogout"
+                    android:layout_alignParentLeft="true"
+                    android:text="Connect to Twitter" />
+
+                <Button
+                    android:id="@+id/btnSetFB"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/btnSetTw"
+                    android:layout_alignParentLeft="true"
+                    android:text="Connect to Facebook" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/btnHomeAbout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/about_us" />
+
+        <ImageView
+            android:id="@+id/btnHomeSetting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnHomeAbout"
+            android:src="@drawable/setting" />
+
+        <ImageView
+            android:id="@+id/btnHomeSync"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnHomeSetting"
+            android:src="@drawable/sync" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="8dp" >
+
+        <ImageView
+            android:id="@+id/btnHomeFriends"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/profile4" />
+
+        <ImageView
+            android:id="@+id/btnHomeAnP"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnHomeFriends"
+            android:src="@drawable/profile3" />
+
+        <ImageView
+            android:id="@+id/btnHome"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnHomeAnP"
+            android:src="@drawable/profile2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgHomeAvatar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/upic" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginLeft="60dp" >
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtHomeName"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.45"
+                android:text="NAME" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtHomePoint"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@+id/imgHomeAvatar"
+            android:text="Points : 999" />
+
+        <TextView
+            android:id="@+id/txtHomeRank"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtHomePoint"
+            android:layout_below="@+id/txtHomePoint"
+            android:text="Rank : Ultimate" />
+
+        <TextView
+            android:id="@+id/txtHomeAch"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtHomeRank"
+            android:layout_below="@+id/txtHomeRank"
+            android:text="Total Achievement : 999/999" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <ImageView
+            android:id="@+id/btnHomeScan"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/scan" />
+
+        <ImageView
+            android:id="@+id/btnHomeOrder"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnHomeScan"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/order" />
+
+        <ImageView
+            android:id="@+id/btnHomeShare"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/btnHomeOrder"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/btnHomeActivities"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/btnHomeScan"
+            android:layout_alignTop="@+id/btnHomeShare"
+            android:src="@drawable/activities" />
+
+    </RelativeLayout>
+
+</LinearLayout>

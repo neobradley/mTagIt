@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.15" >
+
+        <ImageView
+            android:id="@+id/imgAchieved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/stamp_black" />
+
+        <TextView
+            android:id="@+id/txtAchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgAchieved"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@+id/imgAchieved"
+            android:text="Type:Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txtAchPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtAchTitle"
+            android:layout_marginRight="23dp"
+            android:text="0 pts"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtAchDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtAchTitle"
+            android:layout_below="@+id/txtAchTitle"
+            android:text="Description"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/txtAchReq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtAchDesc"
+            android:layout_below="@+id/txtAchDesc"
+            android:text="Require"
+            android:textSize="10dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

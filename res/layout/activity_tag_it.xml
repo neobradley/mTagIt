@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signup" >
+
+        <EditText
+            android:id="@+id/txtSignEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtSignName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtSignEmail"
+            android:layout_below="@+id/txtSignEmail"
+            android:ems="10"
+            android:hint="Display Name" />
+
+        <EditText
+            android:id="@+id/txtSignPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtSignName"
+            android:layout_below="@+id/txtSignName"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtSignConfPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtSignPwd"
+            android:layout_below="@+id/txtSignPwd"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/txtLogin"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignRight="@+id/txtSignConfPwd"
+            android:layout_below="@+id/txtSignConfPwd"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/txtLogin"
+            android:layout_alignBottom="@+id/txtLogin"
+            android:layout_alignLeft="@+id/txtSignConfPwd"
+            android:text="Sign Up" />
+    </RelativeLayout>
+
+</ScrollView>

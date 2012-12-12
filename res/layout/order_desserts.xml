@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orderscreen"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.03" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:src="@drawable/obuts_09" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/obuts_11" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imageView2"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/obuts_13" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="2.03" >
+
+                <ImageView
+                    android:id="@+id/btnOrderMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="14dp"
+                    android:src="@drawable/obuts_09" />
+
+                <ImageView
+                    android:id="@+id/btnOrderCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/btnOrderMenu"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/obuts_11" />
+
+                <ImageView
+                    android:id="@+id/btnOrderGet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/btnOrderCart"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/obuts_13" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="268dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cutting_mesh6_31" />
+
+                <Button
+                    android:id="@+id/btnBrownie"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:text="Buy" />
+
+                <TextView
+                    android:id="@+id/txtBrownie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imageView4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="Brownie"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/maroon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtBrownie"
+                    android:layout_below="@+id/txtBrownie"
+                    android:text="P21.00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/textlines" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cutting_mesh6_29" />
+
+                <Button
+                    android:id="@+id/btnMangoCheesecakeSpoonfuls"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:text="Buy" />
+
+                <TextView
+                    android:id="@+id/txtMangoCheesecakeSpoonfuls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignTop="@+id/imageView4"       
+                    android:layout_toLeftOf="@+id/btnMangoCheesecakeSpoonfuls"           
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="Mango Cheesecake Spoonfuls"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/maroon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignLeft="@+id/txtMangoCheesecakeSpoonfuls"
+                    android:layout_below="@+id/txtMangoCheesecakeSpoonfuls"
+                    android:text="P29.00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/textlines" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cutting_mesh6_15" />
+
+                <Button
+                    android:id="@+id/btnChocolateTiramisuSpoonful"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:text="Buy" />
+
+                <TextView
+                    android:id="@+id/txtChocolateTiramisuSpoonful"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignTop="@+id/imageView4"       
+                    android:layout_toLeftOf="@+id/btnChocolateTiramisuSpoonful"                     
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="Chocolate Tiramisu Spoonfuls"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/maroon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignLeft="@+id/txtChocolateTiramisuSpoonful"
+                    android:layout_below="@+id/txtChocolateTiramisuSpoonful"
+                    android:text="P29.00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/textlines" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cutting_mesh6_11" />
+
+                <Button
+                    android:id="@+id/btnChocolateMousseSpoonfuls"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:text="Buy" />
+
+                <TextView
+                    android:id="@+id/txtChocolateMousseSpoonfuls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignTop="@+id/imageView4"        
+                    android:layout_toLeftOf="@+id/btnChocolateMousseSpoonfuls"                   
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="Chocolate Mousse Spoonfuls"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/maroon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignLeft="@+id/txtChocolateMousseSpoonfuls"
+                    android:layout_below="@+id/txtChocolateMousseSpoonfuls"
+                    android:text="P29.00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/textlines" >
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/cutting_mesh6_13" />
+
+                <Button
+                    android:id="@+id/btnChocoCheeseTorte"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="14dp"
+                    android:text="Buy" />
+
+                <TextView
+                    android:id="@+id/txtChocoCheeseTorte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignTop="@+id/imageView4"                  
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/imageView4"
+                    android:text="Choco Cheese Torte"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/maroon" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_alignLeft="@+id/txtChocoCheeseTorte"
+                    android:layout_below="@+id/txtChocoCheeseTorte"
+                    android:text="P29.00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/gray" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/textlines" >
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

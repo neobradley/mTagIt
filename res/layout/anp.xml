@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lists"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/btnANPAbout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/about_us" />
+
+        <ImageView
+            android:id="@+id/btnANPSetting"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnANPAbout"
+            android:src="@drawable/setting" />
+
+        <ImageView
+            android:id="@+id/btnANPSync"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnANPSetting"
+            android:src="@drawable/sync" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:layout_marginTop="8dp" >
+
+        <ImageView
+            android:id="@+id/btnANPFriends"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/profile4" />
+
+        <ImageView
+            android:id="@+id/btnAnP"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnANPFriends"
+            android:src="@drawable/profile3" />
+
+        <ImageView
+            android:id="@+id/btnANPHome"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnAnP"
+            android:src="@drawable/profile2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54" >
+
+        <ImageView
+            android:id="@+id/btnANPEvent"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/events" />
+
+        <ImageView
+            android:id="@+id/btnANPRedeem"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="18dp"
+            android:src="@drawable/rl" />
+
+        <ImageView
+            android:id="@+id/btnANPTransfer"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/btnANPRedeem"
+            android:src="@drawable/tp" />
+
+        <ImageView
+            android:id="@+id/btnANPAch"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/achievement" />
+    </RelativeLayout>
+
+</LinearLayout>
